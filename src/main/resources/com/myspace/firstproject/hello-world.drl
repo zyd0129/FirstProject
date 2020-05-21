@@ -1,2 +1,8 @@
 package com.myspace.firstproject;
 
+rule "rule1"
+  when
+  then
+    System.out.println("hello world");
+end
+
