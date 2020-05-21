@@ -1,1 +1,5 @@
-<kmodule xmlns="http://www.drools.org/xsd/kmodule"/>
+<kmodule xmlns="http://www.drools.org/xsd/kmodule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <kbase name="hello-kie-base" default="true" eventProcessingMode="stream" equalsBehavior="identity" includes="com.myspace.FirstProject">
+    <ksession name="hello-session" type="stateless" default="true" clockType="realtime"/>
+  </kbase>
+</kmodule>
