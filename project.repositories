@@ -3,9 +3,49 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
+        <id>releases</id>
+        <url>http://192.168.20.178:8081/repository/maven-releases/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>3rd-panshi</id>
+        <url>http://192.168.20.178:8081/repository/maven-releases/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>panshi-snapshot</id>
+        <url>http://192.168.20.178:8081/repository/maven-snapshots/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>alimaven</id>
+        <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
         <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>/opt/jboss/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>panshi-public</id>
+        <url>http://192.168.20.178:8081/repository/maven-public/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
   </repositories>
