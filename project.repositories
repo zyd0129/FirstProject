@@ -48,5 +48,13 @@
         <source>SETTINGS</source>
       </metadata>
     </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>snapshots</id>
+        <url>http://192.168.20.178:8081/repository/maven-snapshots/</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
+      </metadata>
+    </repository>
   </repositories>
 </project-repositories>
